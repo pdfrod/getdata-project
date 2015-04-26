@@ -25,7 +25,7 @@ main
 3. Read the train data set (using function `read.dataset`).
 4. Read the test data set (using function `read.dataset`).
 5. Merge the train and test data sets.
-6. Remove irrelevant columns from the data set. The assignment's description wasn't very clear on exactly which columns should be removed, so I decide to keep only the columns that match "mean" or "std" ignoring case. The columns "activity" and "subject" are also kept.
+6. Remove irrelevant columns from the data set. The assignment's description wasn't very clear on exactly which columns should be removed, so I decide to keep only the columns that match "mean(" or "std" (thus, columns with "meanFreq" and "gravityMean" are excluded). The columns "activity" and "subject" are also kept.
 7. For each "activty" and "subject" pair, calculate the mean of each variable.
 8. Write the output of step 7 to file "output.txt".
 
